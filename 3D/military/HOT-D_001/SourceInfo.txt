@@ -1,0 +1,3 @@
+Source : Initial geometry created with Missile Lab by DESE Research
+
+Converted, textured, and Optimized by Paul H. Leopard, DESE Research, Inc. 2007-03

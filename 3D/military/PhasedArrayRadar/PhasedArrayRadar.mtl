@@ -1,0 +1,90 @@
+# Bounding box of geometry = (-0.5,-0.350769,-0.324365) to (0.499753,0.350769,0.324365).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl CROMADO
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.294118 0.168627 0.105882
+	Ks 1 1 1
+	Ka 0 0 0
+
+newmtl Material__53
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 1 1 1
+	Ka 0 0 0
+
+newmtl Material__54
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0.898039 0.898039 0.898039
+	Ka 0.0980392 0.0980392 0.0980392
+
+newmtl PATRIOT_INTERMI
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.866667 0.47451 0
+	Ks 1 1 1
+	Ka 0 0 0
+
+newmtl PATRIOT_LUZ_FRE
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.356863 0.0156863 0
+	Ks 1 1 1
+	Ka 0 0 0
+
+newmtl PATRIOT_MARRON
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.4
+	Ks 1 1 1
+	Ka 0 0 0
+
+newmtl PATRI_PAN_RAD_M
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.4 0.698039 0.698039
+	Ks 1 1 1
+	Ka 0 0 0
+
+newmtl PATRI_PTA_INF_IZ
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.4 0.698039 0.698039
+	Ks 1 1 1
+	Ka 0 0 0
+
+newmtl PATRI_PTA_LAT_IZ
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.4 0.698039 0.698039
+	Ks 1 1 1
+	Ka 0 0 0
+
+newmtl PATRI_PTA_SUP_IZ
+	Ns 9
+	d 1
+	illum 2
+	Kd 0.4 0.698039 0.698039
+	Ks 1 1 1
+	Ka 0 0 0
+

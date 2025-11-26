@@ -1,0 +1,7 @@
+newmtl default
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.4 0.4 0.4
+illum 2
+Ns 128
+map_Kd Box.jpg

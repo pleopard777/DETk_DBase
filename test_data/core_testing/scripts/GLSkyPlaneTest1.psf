@@ -1,0 +1,33 @@
+MgGLSkyPlaneTest1
+{
+	ShowAxes,true
+	BackgroundColor, Black
+	FontTexture, $(DATABASE)/Imagery/Fonts/GreenLEDFont512.jpg
+	QuadTexture, $(DATABASE)/Imagery/Sand/sand1.jpg
+	QuadSize, 1000
+	CameraFOV, 50
+	CameraNearPlane, 1
+	CameraFarPlane,1000
+	CameraScale,.5
+	WindowWidth, 1024
+	WindowHeight, 768
+}
+	GameModeString,1280x1024:32@72
+
+TestSet
+{
+	MoviesOutputPath, ./MovieFrames
+	SnapshotsOutputPath, ./Snapshots
+	CaptureQuality, 90
+	CaptureInterval, 0.033
+}
+
+SkyPlane
+{
+	Texture, Data/Clouds.jpg
+	Divisions, 2
+	PlanetRadius, 1550
+	AtmosphereRadius, 800
+	LonTiles, 1
+	LatTiles, 1
+}

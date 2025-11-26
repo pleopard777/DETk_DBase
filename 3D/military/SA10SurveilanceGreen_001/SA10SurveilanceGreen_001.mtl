@@ -1,0 +1,8 @@
+
+newmtl Material__1
+Ka 0.3 0.3 0.3
+Kd 0.918 0.918 0.918
+Ks 0.137 0.137 0.137
+illum 2
+Ns 128
+map_Kd sa10sr.jpg

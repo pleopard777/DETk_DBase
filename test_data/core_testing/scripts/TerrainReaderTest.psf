@@ -1,0 +1,6 @@
+TestSet
+{
+	TerrainFile, $(DATABASE)/Terrain/AMCOM/RSA3.v3/RSA3.V3.GND.ftop
+	ReferenceLongitude, W086:46:41.02
+	ReferenceLatitude, N34:46:43.69
+}

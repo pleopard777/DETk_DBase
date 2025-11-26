@@ -1,0 +1,32 @@
+<CoordinateSystem> { Y-Up }
+
+<Group> plane {
+  <Group> {
+    <VertexPool> vpool1 {
+      <Vertex> 0 {
+        -0.5 -0.5 0
+        <UV> { 0 0 }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        0.5 -0.5 0
+        <UV> { 1 0 }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.5 0.5 0
+        <UV> { 1 1 }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        -0.5 0.5 0
+        <UV> { 0 1 }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 0.752941 0.752941 0.752941 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool1 } }
+    }
+  }
+}

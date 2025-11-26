@@ -1,0 +1,23 @@
+Primary function: The HMMWV provides a variety of wheeled vehicle platforms. These are cargo/troop carrier,
+armament carrier, TOW missile system carrier, shelter carrier and two ambulance variants (2- and 4-litter).
+The HMMWV will also be the prime mover for the AN/TRC-170 Radio Digital Terminal and the Pedestal Mounted
+Stinger System.
+
+Length: 15 feet (4.57 meters)
+Width: 7.08 feet (2.16 meters)
+Weight: 5,200 pounds (2359 kilograms)
+Height: 6.00 feet (1.83 meters) reducible to 4.5 feet (1.37 meters)
+
+Engine: V8, 6.2 litre displacement, fuel injected diesel, liquid cooled, compression ignition
+Horsepower: 150 at 3,600 RPM
+Transmission: 3 speed, automatic
+Transfer case: 2 speed, locking, chain driven
+Electrical system: 24 volt, negative ground, 60 amps 
+Brakes: Hydraulic, 4-wheeled disc
+Fording depth: 
+without preparation: 2.5 feet (76.2 centimeters) 
+with deep water fording kit: 5 feet (1.5 meters)
+Fuel type: Diesel
+Fuel capacity: 25 gallons (94.63 liters)
+Range: 350 miles (563.15 kilometers) highway
+Unit Replacement Cost: $50,000

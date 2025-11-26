@@ -1,0 +1,8 @@
+TestSet
+{
+	ItemCount, 4
+	Item[0], Centimeters,Inches,2.54
+	Item[1], Inches,Centimeters,1
+	Item[2], Inches,Meters,1
+	Item[3], Meters,Inches,0.0254
+}

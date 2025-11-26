@@ -1,0 +1,102 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  2.1.10.1214
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl Material
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__6
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__7
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__8
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__9
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__10
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__2
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__11
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__12
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__3
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__4
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg
+
+newmtl Material__5
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 300
+map_Kd m998_woodland.jpg

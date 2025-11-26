@@ -1,0 +1,14 @@
+TestSet
+{
+	# Map width in meters
+	MapWidthMeters, 100000
+
+	# Map height in meters
+	MapHeightMeters, 100000
+
+	# Geodetic Map Center  Longitude,  Latitude, Altitude
+	MapCenterGeodetic, -86.449774, 34.682117, 23000.0
+
+	# Test Point (RCS)  X, Y, Z
+	TestPointRCS, 0, 0, 0
+}

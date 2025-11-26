@@ -1,0 +1,8 @@
+
+newmtl Material__1
+Ka 0.3 0.3 0.3
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2048
+map_Kd sa10gvr.jpg

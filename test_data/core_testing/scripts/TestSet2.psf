@@ -1,0 +1,7 @@
+TestSet
+{
+	Age,45
+	Valid,True
+	Name,Paul
+	Rank,3.141592654
+}

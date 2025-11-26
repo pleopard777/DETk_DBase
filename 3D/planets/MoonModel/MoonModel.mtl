@@ -1,0 +1,15 @@
+newmtl MoonMtl
+Ka 0.513726 0.513726 0.513726
+Kd 1 1 1
+Ks 0.494118 0.494118 0.494118
+illum 2
+Ns 8
+map_Kd MoonModel.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

@@ -1,0 +1,9 @@
+TestSet
+{
+	TrackCount, 5
+	Track0, $(DATABASE)/Audio/Steroids1.s3m, BackgroundMusic ,Song
+	Track1, $(DATABASE)/Audio/T2LoadingHum.wav, LoadingSound ,Stream
+	Track2, $(DATABASE)/Audio/CameraShutter.wav, CameraClick, Sample
+	Track3, $(DATABASE)/Audio/MissileLaunch_6.0s.wav, MissileLaunch, Sample
+	Track4, $(DATABASE)/Audio/Boom2.wav, Explosion1, Sample
+}

@@ -1,0 +1,135 @@
+<Comment> {
+  "egg-texture-cards -o Plume1.egg -fps 20 Plume10000.png Plume10001.png Plume10002.png Plume10003.png Plume10004.png Plume10005.png Plume10006.png Plume10007.png Plume10008.png Plume10009.png Plume10010.png"
+}
+<Texture> Plume10010 {
+  Plume10010.png
+}
+<Texture> Plume10009 {
+  Plume10009.png
+}
+<Texture> Plume10008 {
+  Plume10008.png
+}
+<Texture> Plume10007 {
+  Plume10007.png
+}
+<Texture> Plume10006 {
+  Plume10006.png
+}
+<Texture> Plume10005 {
+  Plume10005.png
+}
+<Texture> Plume10004 {
+  Plume10004.png
+}
+<Texture> Plume10003 {
+  Plume10003.png
+}
+<Texture> Plume10002 {
+  Plume10002.png
+}
+<Texture> Plume10001 {
+  Plume10001.png
+}
+<Texture> Plume10000 {
+  Plume10000.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 20 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> Plume10000 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10000 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10001 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10001 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10002 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10002 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10003 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10003 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10004 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10004 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10005 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10005 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10006 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10006 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10007 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10007 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10008 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10008 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10009 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10009 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Plume10010 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Plume10010 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}
