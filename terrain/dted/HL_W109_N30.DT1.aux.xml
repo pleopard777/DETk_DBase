@@ -1,0 +1,40 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DTED_VerticalAccuracy_UHL">0070</MDI>
+    <MDI key="DTED_VerticalAccuracy_ACC">0070</MDI>
+    <MDI key="DTED_SecurityCode_UHL">U  </MDI>
+    <MDI key="DTED_SecurityCode_DSI">U</MDI>
+    <MDI key="DTED_UniqueRef_UHL"></MDI>
+    <MDI key="DTED_UniqueRef_DSI">H23 073        </MDI>
+    <MDI key="DTED_DataEdition">03</MDI>
+    <MDI key="DTED_MatchMergeVersion">A</MDI>
+    <MDI key="DTED_MaintenanceDate">9005</MDI>
+    <MDI key="DTED_MatchMergeDate">0000</MDI>
+    <MDI key="DTED_MaintenanceDescription">0000</MDI>
+    <MDI key="DTED_Producer">US090000</MDI>
+    <MDI key="DTED_VerticalDatum">MSL</MDI>
+    <MDI key="DTED_HorizontalDatum">WGS84</MDI>
+    <MDI key="DTED_DigitizingSystem">AS11+C    </MDI>
+    <MDI key="DTED_CompilationDate">9005</MDI>
+    <MDI key="DTED_HorizontalAccuracy">0280</MDI>
+    <MDI key="DTED_RelHorizontalAccuracy">0400</MDI>
+    <MDI key="DTED_RelVerticalAccuracy">0080</MDI>
+    <MDI key="DTED_OriginLatitude">0300000N</MDI>
+    <MDI key="DTED_OriginLongitude">1090000W</MDI>
+    <MDI key="DTED_NimaDesignator">DTED1</MDI>
+    <MDI key="DTED_PartialCellIndicator">00</MDI>
+    <MDI key="DTED_SecurityControl"></MDI>
+    <MDI key="DTED_SecurityHandling">DISTRIBUTION LIMITED       </MDI>
+    <MDI key="AREA_OR_POINT">Point</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">917</MDI>
+      <MDI key="STATISTICS_MAXIMUM">2644</MDI>
+      <MDI key="STATISTICS_MEAN">1662.1840364511</MDI>
+      <MDI key="STATISTICS_STDDEV">316.96064383684</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
