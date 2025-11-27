@@ -1,0 +1,8 @@
+{ "subject_name":"M60 Tank", "feature_count":7, "sample_count":1000, "random_seed":5033}
+{ "name":"F1", "title":"RCS", "units":"dBsm", "source":"Raw Radar", "mean":9.1, "std_dev":1.10}
+{ "name":"F2", "title":"HRR Peak Separation", "units":"dBsm", "source":"Radar HRR", "mean":18.21, "std_dev":2.62}
+{ "name":"F3", "title":"Primary Frequency Power", "units":"Khz", "source":"Acoustic FFT", "mean":15.34, "std_dev":1.45}
+{ "name":"F4", "title":"Secondary Frequency Power", "units":"Khz", "source":"Acoustic FFT", "mean":8.77, "std_dev":2.01}
+{ "name":"F5", "title":"Average Pixel Intensity", "units":"Counts", "source":"EO/IR Track Box", "mean":4890.00, "std_dev":71.20}
+{ "name":"F6", "title":"Min Pixel Intensitiy", "units":"Counts", "source":"EO/IR Track Box", "mean":544.00, "std_dev":22.15}
+{ "name":"F7", "title":"Max Pixel Intensity", "units":"Counts", "source":"EO/IR Track Box", "mean":7634.00, "std_dev":11.00}

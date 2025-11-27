@@ -1,0 +1,159 @@
+// Mini-Rocket input file (v1.04)
+//
+Output
+fname = mortar120.out
+pt = 0.01
+pt_console = 1.0
+
+**** rocket ****
+
+tmax = 100.0
+echo = 1
+lon0_d = -86.59
+lat0_d = 34.73
+v0 = 318.0
+h0 = 0.0
+az0_d = 0.0
+el0_d = 45.0
+xrail = 1.5
+nstages = 1
+rotating_earth = 0
+
+output variables:
+These variables are available to be output vs. time.
+Specify output using 0 or 1.
+p_range = 1
+p_h = 1
+p_vel = 1
+p_mach = 1
+p_q = 0
+p_p = 0
+p_vs = 0
+p_rho = 1
+p_gamma_d = 1
+p_alph = 1
+p_mass = 1
+p_xstage = 0
+p_txv = 0
+p_tx = 0
+p_amax_alph = 0
+p_range_slant = 0
+p_ay = 1
+p_az = 0
+p_ax = 0
+p_xmode = 0
+p_ay_cmd = 0
+p_az_cmd = 0
+p_lat_d = 0
+p_lon_d = 0
+p_azimuth_d = 0
+p_ca = 0
+p_cd = 0
+p_cna = 0
+p_cla = 0
+p_pos_ml_ENUx = 1
+p_pos_ml_ENUy = 1
+p_pos_ml_ENUz = 1
+p_vel_ml_ENUx = 1
+p_vel_ml_ENUy = 1
+p_vel_ml_ENUz = 1
+p_acc_ml_ENUx = 1
+p_acc_ml_ENUy = 1
+p_acc_ml_ENUz = 1
+
+**** stage 1 ****
+dt = 0.01
+tstage = 99940.0
+sref = 0.0113
+anoz = 0.0
+alphmax = 15.0
+amax = 100.0
+isp = 250.0
+m0 = 13.65
+
+txv_table
+4
+t txv
+0.0  0.0
+0.45  0.0
+0.4501  0.0
+1000.0  0.0
+
+
+ca_off
+5 2
+amach
+0.100 0.900 1.000 1.100 2.000
+alpha
+0.0 5.0
+ca
+0.120 0.120
+0.130 0.130
+0.200 0.200
+0.200 0.200
+0.200 0.200
+
+
+ca_on
+5 2
+amach
+0.100 0.900 1.000 1.500 2.000
+alpha
+0.0 5.0
+ca
+0.100 0.100
+0.100 0.100
+0.200 0.200
+0.200 0.200
+0.200 0.200
+
+
+cna_table
+5
+mach cna
+0.1  0.16
+0.9  0.18
+1.0  0.2
+1.1  0.21
+2.0  0.22
+
+
+guide_mode_table
+2
+t mode
+0.0  0
+100.0  0
+
+
+ay_table
+3
+t ay
+0.0  0.0
+10.0  0.0
+40.0  0.0
+
+
+az_table
+3
+t az
+0.0  0.0
+10.0  0.0
+100.0  0.0
+
+
+gammad_table
+3
+t gammad
+0.0  0
+10.0  0
+100.0  0
+
+
+gamma_table
+3
+t gamma
+0.0  0.0
+10.0  0.0
+100.0  0.0
+
+

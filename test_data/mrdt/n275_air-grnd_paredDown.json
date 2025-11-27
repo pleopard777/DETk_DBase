@@ -1,0 +1,1925 @@
+{
+  "package": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown",
+  "instanceSpecifications": [
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model",
+      "classifiers": ["MiniRocket Model"],
+      "properties": {
+        "output_fields_control": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944608_465029_5509", "name": "miniRocket Model.output_fields_control", "type": "Instance Specification"}],
+        "output_file_and_console_control": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944610_919900_5512", "name": "miniRocket Model.output_file_and_console_control", "type": "Instance Specification"}],
+        "scenario_and_execution_control": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944611_172391_5515", "name": "miniRocket Model.scenario_and_execution_control", "type": "Instance Specification"}],
+        "rocket_stages": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944612_845584_5518", "name": "miniRocket Model.rocket_stages", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.output_fields_control",
+      "classifiers": ["Output Fields Control"],
+      "properties": {
+        "p_acc_ml_ENUx": [0],
+        "p_acc_ml_ENUy": [0],
+        "p_acc_ml_ENUz": [0],
+        "p_alph": [1],
+        "p_amax_alph": [0],
+        "p_ax": [1],
+        "p_ay": [1],
+        "p_ay_cmd": [1],
+        "p_az": [1],
+        "p_az_cmd": [1],
+        "p_azimuth_d": [1],
+        "p_ca": [0],
+        "p_cd": [0],
+        "p_cla": [0],
+        "p_cna": [0],
+        "p_gamma_d": [1],
+        "p_h": [1],
+        "p_lat_d": [0],
+        "p_lon_d": [0],
+        "p_mach": [1],
+        "p_mass": [1],
+        "p_p": [0],
+        "p_pos_ml_ENUx": [1],
+        "p_pos_ml_ENUy": [1],
+        "p_pos_ml_ENUz": [1],
+        "p_q": [0],
+        "p_range": [1],
+        "p_range_slant": [1],
+        "p_rho": [0],
+        "p_tx": [1],
+        "p_txv": [1],
+        "p_vel": [1],
+        "p_vel_ml_ENUx": [0],
+        "p_vel_ml_ENUy": [0],
+        "p_vel_ml_ENUz": [0],
+        "p_vs": [0],
+        "p_xmode": [1],
+        "p_xstage": [0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.output_file_and_console_control",
+      "classifiers": ["Output File and Console Control"],
+      "properties": {
+        "fname": ["n275_air-grnd_paredDown"],
+        "pt": [0.05],
+        "pt_console": [1.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.scenario_and_execution_control",
+      "classifiers": ["Scenario and Execution Control"],
+      "properties": {
+        "az0_d": [0.0],
+        "echo": [1],
+        "el0_d": [0.0],
+        "h0": [4572.0],
+        "lat0_d": [0.0],
+        "lon0_d": [0.0],
+        "nstages": [1],
+        "rotating_earth": [1],
+        "tmax": [999.0],
+        "v0": [30.87],
+        "xrail": [1.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages",
+      "classifiers": ["Rocket Stage"],
+      "properties": {
+        "ay_table": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944655_226787_5625", "name": "miniRocket Model.rocket_stages.ay_table", "type": "Instance Specification"}],
+        "az_table": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944656_327610_5628", "name": "miniRocket Model.rocket_stages.az_table", "type": "Instance Specification"}],
+        "ca_off": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944656_959232_5631", "name": "miniRocket Model.rocket_stages.ca_off", "type": "Instance Specification"}],
+        "ca_on": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944657_148522_5634", "name": "miniRocket Model.rocket_stages.ca_on", "type": "Instance Specification"}],
+        "cna_table": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944658_829806_5637", "name": "miniRocket Model.rocket_stages.cna_table", "type": "Instance Specification"}],
+        "gamma_table": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944659_316218_5640", "name": "miniRocket Model.rocket_stages.gamma_table", "type": "Instance Specification"}],
+        "gammad_table": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944659_44193_5643", "name": "miniRocket Model.rocket_stages.gammad_table", "type": "Instance Specification"}],
+        "guide_mode_table": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944660_324622_5646", "name": "miniRocket Model.rocket_stages.guide_mode_table", "type": "Instance Specification"}],
+        "stage_params": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944661_204091_5649", "name": "miniRocket Model.rocket_stages.stage_params", "type": "Instance Specification"}],
+        "txv_table": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944662_349625_5652", "name": "miniRocket Model.rocket_stages.txv_table", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ay_table",
+      "classifiers": ["Lateral Acceleration Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944663_969227_5655", "name": "miniRocket Model.rocket_stages.ay_table.rows[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944663_451597_5657", "name": "miniRocket Model.rocket_stages.ay_table.rows[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.az_table",
+      "classifiers": ["Lateral Acceleration Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944666_932593_5668", "name": "miniRocket Model.rocket_stages.az_table.rows[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944667_698646_5670", "name": "miniRocket Model.rocket_stages.az_table.rows[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off",
+      "classifiers": ["Modal Axial Drag Specification"],
+      "properties": {
+        "alpha": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944671_750127_5681", "name": "miniRocket Model.rocket_stages.ca_off.alpha", "type": "Instance Specification"}],
+        "amach": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944672_895232_5684", "name": "miniRocket Model.rocket_stages.ca_off.amach", "type": "Instance Specification"}],
+        "ca": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944673_911178_5687", "name": "miniRocket Model.rocket_stages.ca_off.ca", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on",
+      "classifiers": ["Modal Axial Drag Specification"],
+      "properties": {
+        "alpha": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944755_984333_6001", "name": "miniRocket Model.rocket_stages.ca_on.alpha", "type": "Instance Specification"}],
+        "amach": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944756_101662_6004", "name": "miniRocket Model.rocket_stages.ca_on.amach", "type": "Instance Specification"}],
+        "ca": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944757_926818_6007", "name": "miniRocket Model.rocket_stages.ca_on.ca", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table",
+      "classifiers": ["Normal Force Coefficient Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944778_317747_6108", "name": "miniRocket Model.rocket_stages.cna_table.rows[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_909801_6110", "name": "miniRocket Model.rocket_stages.cna_table.rows[2]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_574126_6112", "name": "miniRocket Model.rocket_stages.cna_table.rows[3]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_864722_6114", "name": "miniRocket Model.rocket_stages.cna_table.rows[4]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_602230_6116", "name": "miniRocket Model.rocket_stages.cna_table.rows[5]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_517647_6118", "name": "miniRocket Model.rocket_stages.cna_table.rows[6]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_700020_6120", "name": "miniRocket Model.rocket_stages.cna_table.rows[7]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_716904_6122", "name": "miniRocket Model.rocket_stages.cna_table.rows[8]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_567259_6124", "name": "miniRocket Model.rocket_stages.cna_table.rows[9]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944779_453021_6126", "name": "miniRocket Model.rocket_stages.cna_table.rows[10]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_648529_6128", "name": "miniRocket Model.rocket_stages.cna_table.rows[11]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_77586_6130", "name": "miniRocket Model.rocket_stages.cna_table.rows[12]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_38117_6132", "name": "miniRocket Model.rocket_stages.cna_table.rows[13]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_446655_6134", "name": "miniRocket Model.rocket_stages.cna_table.rows[14]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_2461_6136", "name": "miniRocket Model.rocket_stages.cna_table.rows[15]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_427711_6138", "name": "miniRocket Model.rocket_stages.cna_table.rows[16]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_950269_6140", "name": "miniRocket Model.rocket_stages.cna_table.rows[17]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_124213_6142", "name": "miniRocket Model.rocket_stages.cna_table.rows[18]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944780_986078_6144", "name": "miniRocket Model.rocket_stages.cna_table.rows[19]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944781_118039_6146", "name": "miniRocket Model.rocket_stages.cna_table.rows[20]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.gamma_table",
+      "classifiers": ["Flight Path Angle Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944814_974609_6229", "name": "miniRocket Model.rocket_stages.gamma_table.rows[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944814_163250_6231", "name": "miniRocket Model.rocket_stages.gamma_table.rows[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.gammad_table",
+      "classifiers": ["Flight Path Angle Rate Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944818_428637_6242", "name": "miniRocket Model.rocket_stages.gammad_table.rows", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.guide_mode_table",
+      "classifiers": ["Guide Mode Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944820_153786_6249", "name": "miniRocket Model.rocket_stages.guide_mode_table.rows[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944820_462785_6251", "name": "miniRocket Model.rocket_stages.guide_mode_table.rows[2]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944820_232704_6253", "name": "miniRocket Model.rocket_stages.guide_mode_table.rows[3]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944820_452092_6255", "name": "miniRocket Model.rocket_stages.guide_mode_table.rows[4]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944820_736381_6257", "name": "miniRocket Model.rocket_stages.guide_mode_table.rows[5]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.stage_params",
+      "classifiers": ["Stage Section Parameters"],
+      "properties": {
+        "alphmax": [4.0],
+        "amax": [150.0],
+        "anoz": [0.0],
+        "dt": [0.001],
+        "isp": [215.8],
+        "m0": [10.5],
+        "sref": [0.003843],
+        "tstage": [999.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table",
+      "classifiers": ["Thrust Vacum Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944832_536849_6296", "name": "miniRocket Model.rocket_stages.txv_table.rows[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944832_950838_6298", "name": "miniRocket Model.rocket_stages.txv_table.rows[2]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944832_508321_6300", "name": "miniRocket Model.rocket_stages.txv_table.rows[3]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944832_930349_6302", "name": "miniRocket Model.rocket_stages.txv_table.rows[4]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944832_622007_6304", "name": "miniRocket Model.rocket_stages.txv_table.rows[5]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_194483_6306", "name": "miniRocket Model.rocket_stages.txv_table.rows[6]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_99716_6308", "name": "miniRocket Model.rocket_stages.txv_table.rows[7]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_168658_6310", "name": "miniRocket Model.rocket_stages.txv_table.rows[8]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_611486_6312", "name": "miniRocket Model.rocket_stages.txv_table.rows[9]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_995417_6314", "name": "miniRocket Model.rocket_stages.txv_table.rows[10]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_762501_6316", "name": "miniRocket Model.rocket_stages.txv_table.rows[11]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_25949_6318", "name": "miniRocket Model.rocket_stages.txv_table.rows[12]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_119864_6320", "name": "miniRocket Model.rocket_stages.txv_table.rows[13]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_744927_6322", "name": "miniRocket Model.rocket_stages.txv_table.rows[14]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944833_513655_6324", "name": "miniRocket Model.rocket_stages.txv_table.rows[15]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944834_355733_6326", "name": "miniRocket Model.rocket_stages.txv_table.rows[16]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944834_89811_6328", "name": "miniRocket Model.rocket_stages.txv_table.rows[17]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944834_636954_6330", "name": "miniRocket Model.rocket_stages.txv_table.rows[18]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ay_table.rows[1]",
+      "classifiers": ["Lateral Acceleration Table Row"],
+      "properties": {
+        "t": [0.0],
+        "acc": [10.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ay_table.rows[2]",
+      "classifiers": ["Lateral Acceleration Table Row"],
+      "properties": {
+        "t": [990.0],
+        "acc": [10.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.az_table.rows[1]",
+      "classifiers": ["Lateral Acceleration Table Row"],
+      "properties": {
+        "t": [0.0],
+        "acc": [0.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.az_table.rows[2]",
+      "classifiers": ["Lateral Acceleration Table Row"],
+      "properties": {
+        "t": [990.0],
+        "acc": [0.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.alpha",
+      "classifiers": ["Aerodynamic Drag Table Angles"],
+      "properties": {
+        "angles": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944674_220949_5690", "name": "miniRocket Model.rocket_stages.ca_off.alpha.angles[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944674_621583_5692", "name": "miniRocket Model.rocket_stages.ca_off.alpha.angles[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach",
+      "classifiers": ["Aerodynamic Drag Table Mach Numbers"],
+      "properties": {
+        "mach_nums": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944683_365987_5699", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944683_350769_5701", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[2]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944683_330830_5703", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[3]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944683_611808_5705", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[4]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944683_385112_5707", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[5]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_426378_5709", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[6]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_77710_5711", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[7]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_286999_5713", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[8]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_461160_5715", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[9]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_407008_5717", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[10]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_200170_5719", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[11]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_971290_5721", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[12]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_127470_5723", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[13]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_749138_5725", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[14]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944684_897153_5727", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[15]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944685_426953_5729", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[16]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944685_996068_5731", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[17]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944685_144447_5733", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[18]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944685_265354_5735", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[19]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944685_625256_5737", "name": "miniRocket Model.rocket_stages.ca_off.amach.mach_nums[20]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca",
+      "classifiers": ["Aerodynamic Drag Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_432183_5780", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_443034_5782", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[2]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_123115_5784", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[3]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_773263_5786", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[4]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_943500_5788", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[5]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_244138_5790", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[6]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_657961_5792", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[7]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_206272_5794", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[8]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944703_579021_5796", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[9]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_659695_5798", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[10]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_127337_5800", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[11]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_509730_5802", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[12]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_92914_5804", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[13]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_2728_5806", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[14]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_994764_5808", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[15]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_91210_5810", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[16]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_148438_5812", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[17]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_830503_5814", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[18]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944704_793983_5816", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[19]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944705_292718_5818", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[20]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.alpha.angles[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.alpha.angles[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [4.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.55]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[3]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.6]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[4]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.65]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[5]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[6]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.75]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[7]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.8]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[8]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.85]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[9]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[10]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.95]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[11]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.05]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[12]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.1]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[13]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.15]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[14]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.2]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[15]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.25]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[16]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.3]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[17]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.35]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[18]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.4]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[19]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.45]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.amach.mach_nums[20]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.5]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[1]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944705_845336_5821", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[1].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944706_604828_5823", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[1].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[2]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944708_150253_5830", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[2].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944708_500991_5832", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[2].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[3]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944710_502629_5839", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[3].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944710_949096_5841", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[3].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[4]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944713_385048_5848", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[4].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944713_564343_5850", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[4].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[5]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944716_91233_5857", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[5].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944716_855741_5859", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[5].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[6]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944720_148907_5866", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[6].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944720_434028_5868", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[6].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[7]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944723_107170_5875", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[7].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944723_730367_5877", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[7].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[8]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944725_822324_5884", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[8].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944725_561571_5886", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[8].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[9]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944728_117220_5893", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[9].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944728_978419_5895", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[9].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[10]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944730_666873_5902", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[10].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944730_251610_5904", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[10].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[11]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944732_897236_5911", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[11].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944733_900578_5913", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[11].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[12]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944735_620028_5920", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[12].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944735_244882_5922", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[12].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[13]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944737_913414_5929", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[13].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944737_876096_5931", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[13].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[14]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944739_106491_5938", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[14].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944739_57289_5940", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[14].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[15]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944742_130925_5947", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[15].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944742_922196_5949", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[15].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[16]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944744_228038_5956", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[16].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944744_286300_5958", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[16].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[17]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944746_458812_5965", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[17].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944747_263926_5967", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[17].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[18]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944749_768935_5974", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[18].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944749_988927_5976", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[18].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[19]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944751_432824_5983", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[19].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944751_165884_5985", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[19].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[20]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944753_269449_5992", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[20].elements[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944753_698006_5994", "name": "miniRocket Model.rocket_stages.ca_off.ca.rows[20].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[1].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4456]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[1].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5005]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[2].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4445]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[2].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4984]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[3].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4519]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[3].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5047]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[4].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4672]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[4].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4902]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[5].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4872]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[5].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5081]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[6].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5115]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[6].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5295]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[7].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5434]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[7].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5605]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[8].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.6064]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[8].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.6185]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[9].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.6993]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[9].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7067]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[10].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.8193]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[10].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.823]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[11].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.3547]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[11].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.3486]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[12].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.1977]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[12].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.1999]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[13].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.1171]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[13].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.1319]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[14].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.0594]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[14].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.0898]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[15].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.0148]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[15].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.0569]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[16].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9809]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[16].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.0349]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[17].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9524]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[17].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.015]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[18].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9286]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[18].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.006]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[19].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9073]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[19].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9814]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[20].elements[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.8882]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca.rows[20].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9651]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.alpha",
+      "classifiers": ["Aerodynamic Drag Table Angles"],
+      "properties": {
+        "angles": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944758_39_6010", "name": "miniRocket Model.rocket_stages.ca_on.alpha.angles[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944758_840337_6012", "name": "miniRocket Model.rocket_stages.ca_on.alpha.angles[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach",
+      "classifiers": ["Aerodynamic Drag Table Mach Numbers"],
+      "properties": {
+        "mach_nums": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944760_969588_6019", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[1]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944760_405200_6021", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[2]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944760_181614_6023", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[3]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944760_79465_6025", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[4]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944760_742191_6027", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[5]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944760_111719_6029", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[6]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944760_363988_6031", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[7]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944760_705103_6033", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[8]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_366652_6035", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[9]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_55935_6037", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[10]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_990227_6039", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[11]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_505884_6041", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[12]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_381010_6043", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[13]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_257935_6045", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[14]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_478131_6047", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[15]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_841977_6049", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[16]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944761_139514_6051", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[17]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944762_141805_6053", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[18]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944762_237471_6055", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[19]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944762_202567_6057", "name": "miniRocket Model.rocket_stages.ca_on.amach.mach_nums[20]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca",
+      "classifiers": ["Aerodynamic Drag Table"],
+      "properties": {
+        "rows": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944775_23974_6100", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784805_743268_6614", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[2]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784806_694065_6616", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[3]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784806_377206_6618", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[4]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784806_936570_6620", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[5]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784806_692839_6622", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[6]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784806_726062_6624", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[7]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784807_232824_6626", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[8]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784807_87966_6628", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[9]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784807_839645_6630", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[10]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784807_796685_6632", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[11]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784807_890749_6634", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[12]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784808_715221_6636", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[13]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784808_51134_6638", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[14]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784808_421688_6640", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[15]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784807_796685_6632", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[11]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784808_648623_6644", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[17]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784809_756881_6646", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[18]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784809_507295_6648", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[19]", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784809_298454_6650", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[20]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.alpha.angles[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.alpha.angles[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [4.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[1]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.55]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[3]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.6]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[4]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.65]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[5]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[6]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.75]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[7]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.8]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[8]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.85]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[9]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[10]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.95]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[11]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.05]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[12]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.1]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[13]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.15]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[14]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.2]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[15]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.25]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[16]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.3]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[17]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.35]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[18]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.4]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[19]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.45]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.amach.mach_nums[20]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [1.5]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756144944777_828528_6103", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows.elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784804_852962_6610", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows.elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows.elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3063]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[1]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.5],
+        "cna": [0.2089]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[2]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.55],
+        "cna": [0.2098]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[3]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.6],
+        "cna": [0.2107]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[4]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.65],
+        "cna": [0.2111]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[5]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.7],
+        "cna": [0.2119]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[6]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.75],
+        "cna": [0.2128]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[7]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.8],
+        "cna": [0.2195]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[8]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.85],
+        "cna": [0.2201]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[9]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.9],
+        "cna": [0.2207]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[10]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [0.95],
+        "cna": [0.2218]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[11]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.05],
+        "cna": [0.2378]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[12]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.1],
+        "cna": [0.243]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[13]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.15],
+        "cna": [0.2464]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[14]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.2],
+        "cna": [0.2489]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[15]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.25],
+        "cna": [0.2514]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[16]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.3],
+        "cna": [0.251]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[17]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.35],
+        "cna": [0.2489]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[18]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.4],
+        "cna": [0.2467]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[19]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.45],
+        "cna": [0.2396]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.cna_table.rows[20]",
+      "classifiers": ["Normal Force Coefficient Table Row"],
+      "properties": {
+        "amach": [1.5],
+        "cna": [0.2362]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.gamma_table.rows[1]",
+      "classifiers": ["Flight Path Angle Table Row"],
+      "properties": {
+        "t": [0.0],
+        "gamma": [20.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.gamma_table.rows[2]",
+      "classifiers": ["Flight Path Angle Table Row"],
+      "properties": {
+        "t": [990.0],
+        "gamma": [20.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.gammad_table.rows",
+      "classifiers": ["Flight Path Angle Rate Table Row"],
+      "properties": {
+        "t": [0.0],
+        "gamma_d": [0.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.guide_mode_table.rows[1]",
+      "classifiers": ["Guide Mode Table Row"],
+      "properties": {
+        "t": [0.0],
+        "mode": [0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.guide_mode_table.rows[2]",
+      "classifiers": ["Guide Mode Table Row"],
+      "properties": {
+        "t": [0.5],
+        "mode": [3]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.guide_mode_table.rows[3]",
+      "classifiers": ["Guide Mode Table Row"],
+      "properties": {
+        "t": [40.0],
+        "mode": [0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.guide_mode_table.rows[4]",
+      "classifiers": ["Guide Mode Table Row"],
+      "properties": {
+        "t": [50.0],
+        "mode": [0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.guide_mode_table.rows[5]",
+      "classifiers": ["Guide Mode Table Row"],
+      "properties": {
+        "t": [990.0],
+        "mode": [0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[1]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.005],
+        "txv": [3600.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[2]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.01],
+        "txv": [2900.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[3]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.015],
+        "txv": [4050.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[4]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.02],
+        "txv": [3950.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[5]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.025],
+        "txv": [4450.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[6]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.03],
+        "txv": [4750.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[7]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.035],
+        "txv": [4930.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[8]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.04],
+        "txv": [5050.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[9]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.045],
+        "txv": [5150.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[10]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.05],
+        "txv": [5200.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[11]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.2],
+        "txv": [4900.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[12]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.4],
+        "txv": [4800.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[13]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.6],
+        "txv": [5300.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[14]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.8],
+        "txv": [5700.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[15]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [0.95],
+        "txv": [6400.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[16]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [1.0],
+        "txv": [5600.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[17]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [1.1],
+        "txv": [50.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.txv_table.rows[18]",
+      "classifiers": ["Thrust Vacum Table Row"],
+      "properties": {
+        "t": [1.2],
+        "txv": [0.0]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows.elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.305]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[2]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784810_700661_6653", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[2].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424761_320123_6995", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[2].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[3]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784812_698650_6658", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[3].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424764_139909_7001", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[3].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[4]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784814_519414_6663", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[4].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424766_126547_7007", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[4].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[5]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784816_876810_6668", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[5].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424769_305379_7013", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[5].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[6]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784817_96322_6673", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[6].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424771_718733_7019", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[6].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[7]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784819_263224_6678", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[7].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424774_772880_7025", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[7].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[8]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784820_476811_6683", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[8].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424776_508329_7031", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[8].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[9]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784822_698867_6688", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[9].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424778_88867_7037", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[9].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[10]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784824_285551_6693", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[10].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424780_54200_7043", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[10].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[11]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784834_585064_6723", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[16].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424781_430928_7049", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[11].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[12]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784827_880335_6703", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[12].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424782_819828_7055", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[12].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[13]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784829_794111_6708", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[13].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424784_543698_7061", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[13].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[14]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784830_955268_6713", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[14].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424785_865946_7067", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[14].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[15]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784832_762600_6718", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[15].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424786_989194_7073", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[15].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[17]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784835_299210_6728", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[17].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424787_875702_7079", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[17].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[18]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784837_926035_6733", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[18].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424789_54688_7085", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[18].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[19]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784838_391011_6738", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[19].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424790_199712_7091", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[19].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[20]",
+      "classifiers": ["Aerodynamic Drag Table Row"],
+      "properties": {
+        "elements": [{"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756146784841_970564_6743", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[20].elements", "type": "Instance Specification"}, {"_kind": "InstanceRef", "_id": "_2024x_198a045a_1756147424791_873127_7097", "name": "miniRocket Model.rocket_stages.ca_on.ca.rows[20].elements[2]", "type": "Instance Specification"}]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[2].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3056]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[3].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3136]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[4].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3284]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[5].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3489]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[6].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3736]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[7].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4058]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[8].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4695]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[9].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5632]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[10].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.6598]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[12].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9896]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[13].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9169]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[14].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.8628]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[15].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.8215]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[16].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7901]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[17].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7641]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[18].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7428]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[19].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7238]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[20].elements",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7071]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[2].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3044]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[3].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3123]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[4].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.327]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[5].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3474]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[6].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.3719]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[7].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.404]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[8].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.4676]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[9].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.5612]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[10].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.6576]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[11].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7843]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[12].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9872]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[13].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.9144]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[14].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.8603]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[15].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.8157]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[17].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7583]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[18].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.737]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[19].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7184]
+      }
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca.rows[20].elements[2]",
+      "classifiers": ["Aerodynamic Drag Table Element"],
+      "properties": {
+        "value": [0.7022]
+      }
+    }
+  ],
+  "instanceTables": [
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_off.ca",
+      "rows": [
+        {
+          "rowIndex": 0,
+          "cells": {"elements": [{"value": [0.4456]}, {"value": [0.5005]}]}
+        },
+        {
+          "rowIndex": 1,
+          "cells": {"elements": [{"value": [0.4445]}, {"value": [0.4984]}]}
+        },
+        {
+          "rowIndex": 2,
+          "cells": {"elements": [{"value": [0.4519]}, {"value": [0.5047]}]}
+        },
+        {
+          "rowIndex": 3,
+          "cells": {"elements": [{"value": [0.4672]}, {"value": [0.4902]}]}
+        },
+        {
+          "rowIndex": 4,
+          "cells": {"elements": [{"value": [0.4872]}, {"value": [0.5081]}]}
+        },
+        {
+          "rowIndex": 5,
+          "cells": {"elements": [{"value": [0.5115]}, {"value": [0.5295]}]}
+        },
+        {
+          "rowIndex": 6,
+          "cells": {"elements": [{"value": [0.5434]}, {"value": [0.5605]}]}
+        },
+        {
+          "rowIndex": 7,
+          "cells": {"elements": [{"value": [0.6064]}, {"value": [0.6185]}]}
+        },
+        {
+          "rowIndex": 8,
+          "cells": {"elements": [{"value": [0.6993]}, {"value": [0.7067]}]}
+        },
+        {
+          "rowIndex": 9,
+          "cells": {"elements": [{"value": [0.8193]}, {"value": [0.823]}]}
+        },
+        {
+          "rowIndex": 10,
+          "cells": {"elements": [{"value": [1.3547]}, {"value": [1.3486]}]}
+        },
+        {
+          "rowIndex": 11,
+          "cells": {"elements": [{"value": [1.1977]}, {"value": [1.1999]}]}
+        },
+        {
+          "rowIndex": 12,
+          "cells": {"elements": [{"value": [1.1171]}, {"value": [1.1319]}]}
+        },
+        {
+          "rowIndex": 13,
+          "cells": {"elements": [{"value": [1.0594]}, {"value": [1.0898]}]}
+        },
+        {
+          "rowIndex": 14,
+          "cells": {"elements": [{"value": [1.0148]}, {"value": [1.0569]}]}
+        },
+        {
+          "rowIndex": 15,
+          "cells": {"elements": [{"value": [0.9809]}, {"value": [1.0349]}]}
+        },
+        {
+          "rowIndex": 16,
+          "cells": {"elements": [{"value": [0.9524]}, {"value": [1.015]}]}
+        },
+        {
+          "rowIndex": 17,
+          "cells": {"elements": [{"value": [0.9286]}, {"value": [1.006]}]}
+        },
+        {
+          "rowIndex": 18,
+          "cells": {"elements": [{"value": [0.9073]}, {"value": [0.9814]}]}
+        },
+        {
+          "rowIndex": 19,
+          "cells": {"elements": [{"value": [0.8882]}, {"value": [0.9651]}]}
+        }
+      ]
+    },
+    {
+      "name": "MiniRocket Digital Twin::MiniRocket Digital Twin v2.0::09 Scenarios::n275_air-grnd_paredDown::miniRocket Model.rocket_stages.ca_on.ca",
+      "rows": [
+        {
+          "rowIndex": 0,
+          "cells": {"elements": [{"value": [0.3063]}, {"value": [0.305]}]}
+        },
+        {
+          "rowIndex": 1,
+          "cells": {"elements": [{"value": [0.3056]}, {"value": [0.3044]}]}
+        },
+        {
+          "rowIndex": 2,
+          "cells": {"elements": [{"value": [0.3136]}, {"value": [0.3123]}]}
+        },
+        {
+          "rowIndex": 3,
+          "cells": {"elements": [{"value": [0.3284]}, {"value": [0.327]}]}
+        },
+        {
+          "rowIndex": 4,
+          "cells": {"elements": [{"value": [0.3489]}, {"value": [0.3474]}]}
+        },
+        {
+          "rowIndex": 5,
+          "cells": {"elements": [{"value": [0.3736]}, {"value": [0.3719]}]}
+        },
+        {
+          "rowIndex": 6,
+          "cells": {"elements": [{"value": [0.4058]}, {"value": [0.404]}]}
+        },
+        {
+          "rowIndex": 7,
+          "cells": {"elements": [{"value": [0.4695]}, {"value": [0.4676]}]}
+        },
+        {
+          "rowIndex": 8,
+          "cells": {"elements": [{"value": [0.5632]}, {"value": [0.5612]}]}
+        },
+        {
+          "rowIndex": 9,
+          "cells": {"elements": [{"value": [0.6598]}, {"value": [0.6576]}]}
+        },
+        {
+          "rowIndex": 10,
+          "cells": {"elements": [{"value": [0.7901]}, {"value": [0.7843]}]}
+        },
+        {
+          "rowIndex": 11,
+          "cells": {"elements": [{"value": [0.9896]}, {"value": [0.9872]}]}
+        },
+        {
+          "rowIndex": 12,
+          "cells": {"elements": [{"value": [0.9169]}, {"value": [0.9144]}]}
+        },
+        {
+          "rowIndex": 13,
+          "cells": {"elements": [{"value": [0.8628]}, {"value": [0.8603]}]}
+        },
+        {
+          "rowIndex": 14,
+          "cells": {"elements": [{"value": [0.8215]}, {"value": [0.8157]}]}
+        },
+        {
+          "rowIndex": 15,
+          "cells": {"elements": [{"value": [0.7901]}, {"value": [0.7843]}]}
+        },
+        {
+          "rowIndex": 16,
+          "cells": {"elements": [{"value": [0.7641]}, {"value": [0.7583]}]}
+        },
+        {
+          "rowIndex": 17,
+          "cells": {"elements": [{"value": [0.7428]}, {"value": [0.737]}]}
+        },
+        {
+          "rowIndex": 18,
+          "cells": {"elements": [{"value": [0.7238]}, {"value": [0.7184]}]}
+        },
+        {
+          "rowIndex": 19,
+          "cells": {"elements": [{"value": [0.7071]}, {"value": [0.7022]}]}
+        }
+      ]
+    }
+  ]
+}
+  ]
+}

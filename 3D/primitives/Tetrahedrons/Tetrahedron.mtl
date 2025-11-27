@@ -1,0 +1,7 @@
+newmtl default
+Ka 0 0 0
+Kd 0.752941 0.752941 0.752941
+Ks 0 0 0
+illum 2
+Ns 181.019
+map_Kd Tetrahedron.png

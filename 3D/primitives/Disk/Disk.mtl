@@ -1,0 +1,22 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.6.1889 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl FrontCol
+Ka 0 0 0
+Kd 0.882353 0.882353 0.784314
+Ks 0.329412 0.329412 0.329412
+illum 2
+Ns 2
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

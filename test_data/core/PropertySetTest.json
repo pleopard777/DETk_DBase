@@ -1,0 +1,142 @@
+{
+  "PropertySetTest1": {
+    "BackgroundColor": "#223455FF",
+    "BkgMusicFile": "noise.aiff",
+    "ShowYZGrid": "true",
+    "WorldDimension": "131",
+    "TargetScale": "43.2",
+    "TextFontFile": "$[DBASE]/fonts/verdana.ttf",
+    "TargetPosition": "23.3,33.4,44.5"
+  },
+  "AudioManager": {
+    "Track0": "${DETK_PTK)/database/Audio/Steroids1.s3m, BackgroundMusic ,Song",
+    "Track1": "${DETK_PTK)/database/Audio/T2LoadingHum.wav, LoadingSound ,Stream",
+    "Track2": "${DETK_PTK)/database/Audio/CameraShutter.wav, CameraClick, Sample",
+    "Track3": "${DETK_PTK)/database/Audio/MissileLaunch_6.0s.wav, MissileLaunch, Sample",
+    "Track4": "${DETK_PTK)/database/Audio/Boom2.wav, Explosion1, Sample"
+  },
+  "GPSCoordinates": {
+    "Test": [
+      "85.9542, -37.8894",
+      "-85.9542,  37.8894",
+      "-85.9542, +37.8894",
+      "W85.9542, N37.8894",
+      "W123:43:23.129, N32:58:12.59",
+      "E123:43:23.129, S32:58:12.59"
+    ]
+  },
+  "SimulationDataSet": {
+    "LightScriptFile": "InputScript.msf",
+    "LightModelScriptFile": "InputScript.msf",
+    "ModelSmoothingAngleDegrees": "130",
+    "SkyBoxModelFile": "${DETK_PTK)/database/3DModels/CubeSky1/CubeSky1.3ds",
+    "HighQualityModelTextures": "true",
+    "UseModelLighting": "true",
+    "ModelFile0": "${DETK_PTK)/database/3DModels/SpaceStation/SpaceStation.3ds",
+    "ModelPosition0": "0, 0, 0",
+    "ModelFile1": "${DETK_PTK)/database/3DModels/A10Cockpit/A10Cockpit.3ds",
+    "ModelPosition1": "-0.55, 0.55, 0.55",
+    "ModelFile2": "${DETK_PTK)/database/3DModels/T72M1Woodland/T72M1Woodland.3ds",
+    "ModelPosition2": "-0.55, -0.55, -0.55",
+    "ModelFile3": "${DETK_PTK)/database/3DModels/F5E/F5E.3ds",
+    "ModelPosition3": "0.55, 0.55, 0.55",
+    "ModelFile4": "${DETK_PTK)/database/3DModels/IndyCar2/IndyCar2.3ds",
+    "ModelPosition4": "0.55, -0.55, 0.55",
+    "ModelFile5": "${DETK_PTK)/database/3DModels/AA-1B/AA-1B.3ds",
+    "ModelPosition5": "-0.55, -0.55, 0.55",
+    "ModelFile6": "${DETK_PTK)/database/3DModels/T80-Standard/T80-Standard.3ds",
+    "ModelPosition6": "0.55, -0.55, -0.55",
+    "ModelFile7": "${DETK_PTK)/database/3DModels/TieFighter/TieFighter.3ds",
+    "ModelPosition7": "0.55, 0.55, -0.55",
+    "ModelFile8": "${DETK_PTK)/database/3DModels/Sidewinder/Sidewinder.3ds",
+    "ModelPosition8": "-0.55, 0.55, -0.55"
+  },
+  "SceneLightModel": {
+    "LocalViewer": "false",
+    "TwoSided": "true",
+    "AmbientColor": "0xFFFFFFFF"
+  },
+  "SceneLight": {
+    "Name": "LightName",
+    "AmbientColor": "0xFFFFFFFF",
+    "EmissiveColor": "0x000000FF",
+    "DiffuseColor": "0x444444FF",
+    "SpecularColor": "0xFFFFFFFF",
+    "Position": "0,0,1,1",
+    "SpotDirection": "0,0,-1",
+    "SpotCutoffAngle": "180",
+    "SpotExponent": "0",
+    "ConstantAttenuation": "1",
+    "LinearAttenuation": "0",
+    "QuadraticAttenuation": "0"
+  },
+  "Textures": {
+    "Texture": [
+      "Water1, Textures/Water1.jpg",
+      "Clouds1, Textures/Clouds1.jpg",
+      "LeatherGS, Textures/LeatherGS.jpg",
+      "Aegis0, Textures/Aegis1.mp_0.jpg",
+      "Aegis1, Textures/Aegis1.mp_1.jpg",
+      "Aegis2, Textures/Aegis1.mp_2.jpg",
+      "Aegis3, Textures/Aegis1.mp_3.jpg",
+      "Aegis4, Textures/Aegis1.mp_4.jpg",
+      "Aegis5, Textures/Aegis1.mp_5.jpg",
+      "Aegis6, Textures/Aegis1.mp_6.jpg"
+    ]
+  },
+  "AegisModel": {
+    "IsActive": "true",
+    "ActualSizeMeters": "171.8, 171.8, 171.8",
+    "Scale": "0.01, 0.01, 0.01",
+    "Position": "1830, -118, 0.16",
+    "Velocity": "0, 0, 0",
+    "Orientation": "270, 0, 0",
+    "TextureMap": [
+      "Aegis0",
+      "Aegis1",
+      "Aegis2",
+      "Aegis3",
+      "Aegis4",
+      "Aegis5",
+      "Aegis6"
+    ]
+  },
+  "HouseModel": {
+    "IsActive": "true",
+    "Scale": "2, 2, 2",
+    "Position": "311, 224, 34",
+    "Velocity": "0, 0, 0",
+    "Orientation": "90, 0, 0",
+    "ActualSizeMeters": "3, 3, 3"
+  },
+  "JoystickConfig": {
+    "BaseGain": "0.3",
+    "KeyboardRollGain": "0.1",
+    "KeyboardPitchGain": "0.1",
+    "KeyboardYawGain": "0.1",
+    "MouseRollGain": "0.2",
+    "MousePitchGain": "0.2",
+    "MouseYawGain": "0.2",
+    "JoystickDeadZone": "0.1",
+    "JoystickThrottleGain": "10",
+    "JoystickRollGain": "0.3",
+    "JoystickPitchGain": "0.5",
+    "JoystickYawGain": "0.5",
+    "MotionGain": "20",
+    "MotionGainIncrement": "3.1",
+    "RotationGain": "3",
+    "RotationGainIncrement": "0.5",
+    "MotionGainAccelerator1": "1.1",
+    "MotionGainAccelerator2": "5.0",
+    "VerticalSlideGain": "2.0",
+    "HorizontalSlideGain": "2.0"
+  },
+  "CoordinateSystemMgrTest": {
+    "MapWidthMeters": "100000",
+    "MapHeightMeters": "100000",
+    "# Geodetic Map Center  Longitude": "Latitude, Altitude",
+    "MapCenterGeodetic": "-86.449774, 34.682117, 23000.0",
+    "# Test Point (RCS)  X": "Y, Z",
+    "TestPointRCS": "0, 0, 0"
+  }
+}

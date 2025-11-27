@@ -1,0 +1,223 @@
+Output
+fname = n275_grnd-air_paredDown.out
+pt = 0.01
+pt_console = 1.0
+
+**** rocket ****
+
+# Input data file for notional 275 
+
+az0_d = 30.0
+echo = 1
+el0_d = 40.0
+h0 = 2.0
+lat0_d = 0.0
+lon0_d = 0.0
+nstages = 1
+rotating_earth = 1
+tmax = 25.0
+v0 = 0.01 
+xrail=1.0
+
+output variables:
+These variables are available to be output vs. time.
+Specify output using 0 or 1.
+p_range       = 1 Ground range over spherical earth surface (m).
+p_h           = 1 Altitude above spherical earth (m).
+p_vel         = 1 Velocity (m/sec).
+p_mach        = 1 Mach number.
+p_q           = 0 Dynamic pressure (N/m2).
+p_p           = 0 Local atmospheric pressure (N/m2).
+p_vs          = 0 Local velocity of sound (m/sec).
+p_rho         = 0 Local atmospheric density (kg/m3).
+p_gamma_d     = 1 Flight path angle, with respect to horizontal (deg).
+p_alph        = 1 Total angle-of-attack (deg).
+p_mass        = 1 Mass (kg).
+p_xstage      = 0 Identifier for current stage.
+p_txv         = 1 Vacuum thrust (N).
+p_tx          = 1 Delivered thrust (N).
+p_amax_alph   = 0 Max. acceleration at max.-specified angle-of-attack (m/sec2).
+p_range_slant = 1 Slant range (m).
+p_ay          = 1 y-acceleration, in velocity axex coordinate system (m/sec2)
+p_az          = 1 z-acceleration, in velocity axex coordinate system (m/sec2)
+p_ax          = 1 x-acceleration, in velocity axex coordinate system (m/sec2)
+p_xmode       = 1 Current guidance mode.
+p_ay_cmd      = 1 Commanded y-acceleration (m/sec2).
+p_az_cmd      = 1 Commanded y-acceleration (m/sec2).
+p_lat_d       = 0 Current latitude (deg).
+p_lon_d       = 0 Current longitude (deg).
+p_azimuth_d   = 1 Current azimuth of velocity vector (deg).
+p_ca          = 0 Axial force coefficient.
+p_cd          = 0 Equivalent drag coefficient.
+p_cna         = 0 Linearized normal force coefficient (/deg).
+p_cla         = 0 Linearized equivalent lift coefficient (/deg).
+p_pos_ml_ENUx  = 1 x-Missile position relative to Launcher in ENU (m)
+p_pos_ml_ENUy  = 1 y-Missile position relative to Launcher in ENU (m)
+p_pos_ml_ENUz  = 1 z-Missile position relative to Launcher in ENU (m)
+p_vel_ml_ENUx  = 0 x-Missile velocity relative to Launcher in ENU (m/s)
+p_vel_ml_ENUy  = 0 y-Missile velocity relative to Launcher in ENU (m/s)
+p_vel_ml_ENUz  = 0 z-Missile velocity relative to Launcher in ENU (m/s)
+p_acc_ml_ENUx  = 0 x-Missile acceleration relative to Launcher in ENU (m/s^2)
+p_acc_ml_ENUy  = 0 y-Missile acceleration relative to Launcher in ENU (m/s^2)
+p_acc_ml_ENUz  = 0 z-Missile acceleration relative to Launcher in ENU (m/s^2)
+
+**** stage 1 ****
+alphmax = 15.0 #4.0   
+amax = 200.0 #150.
+anoz = 0.00
+dt = 0.001
+isp = 215.8
+m0 = 10.5     
+sref = 0.003843
+tstage = 999.
+
+guide_mode_table
+6
+t mode
+0.0    0
+0.5    3
+6.0    1
+40.0   0
+50.0   0
+990.0  0
+
+ay_table
+8
+t ay
+0.0   30.0
+11.0  30.0
+11.1   0.0
+12.0  0.0
+12.1  -20.0
+15.0  -20.0
+15.1   0.0
+990.   0.0
+
+az_table
+6
+t az
+0.    15.0  #9.8
+10.0  15.0
+10.1  5.0
+20.0   5.0
+20.1   0.0
+990.  0.0
+
+gammad_table
+1
+t gamma_d
+0.  0.0
+
+gamma_table
+4
+t gamma
+0.0    40.0
+2.0    40.0
+5.0    50.0
+990.0  35.0
+
+txv_table    # notional thrust
+19
+t txv
+0	4.0
+0.005	3600.
+0.01	2900.
+0.015	4050.
+0.02	3950.
+0.025	4450.
+0.03	4750.
+0.035	4930.
+0.04	5050.
+0.045	5150.
+0.05	5200.
+0.2	4900.
+0.4	4800.
+0.6	5300.
+0.8	5700.
+0.95	6400.
+1	5600.
+1.1	50.
+1.2	0
+
+#  Aero Data
+#  notional config.
+
+ca_off   
+20  2
+amach 
+0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9	0.95 1.05 1.1 1.15 1.2 1.25 1.3 1.35 1.4 1.45 1.5   
+alpha
+0.0  4.0
+ca 
+0.4456	0.5005
+0.4445	0.4984
+0.4519	0.5047
+0.4672	0.4902
+0.4872	0.5081
+0.5115	0.5295
+0.5434	0.5605
+0.6064	0.6185
+0.6993	0.7067
+0.8193	0.823
+1.3547	1.3486
+1.1977	1.1999
+1.1171	1.1319
+1.0594	1.0898
+1.0148	1.0569
+0.9809	1.0349
+0.9524	1.015
+0.9286	1.006
+0.9073	0.9814
+0.8882	0.9651
+
+ca_on  
+20  2
+amach 
+0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9	0.95 1.05 1.1 1.15 1.2 1.25 1.3 1.35 1.4 1.45 1.5   
+alpha
+0.0 4.0
+ca                                                                                          
+0.3063	0.305	
+0.3056	0.3044	
+0.3136	0.3123	
+0.3284	0.327	
+0.3489	0.3474	
+0.3736	0.3719	
+0.4058	0.404	
+0.4695	0.4676	
+0.5632	0.5612	
+0.6598	0.6576	
+1.1389	1.1365	
+0.9896	0.9872	
+0.9169	0.9144	
+0.8628	0.8603	
+0.8215	0.8157	
+0.7901	0.7843	
+0.7641	0.7583	
+0.7428	0.737	
+0.7238	0.7184	
+0.7071	0.7022	
+
+cna_table
+20
+mach cna    
+0.5	0.2089
+0.55	0.2098
+0.6	0.2107
+0.65	0.2111
+0.7	0.2119
+0.75	0.2128
+0.8	0.2195
+0.85	0.2201
+0.9	0.2207
+0.95	0.2218
+1.05	0.2378
+1.1	0.243
+1.15	0.2464
+1.2	0.2489
+1.25	0.2514
+1.3	0.251
+1.35	0.2489
+1.4	0.2467
+1.45	0.2396
+1.5	0.2362

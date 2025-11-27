@@ -1,0 +1,15 @@
+# MiniRocket Digital Twin External Pipeline Instructions
+
+# Minirocket scenario name
+ModelScenarioName = mortar120
+
+# Launch MiniRocket with RocketDat as input, results in Minirocket results being stored in MROutputDat
+# {Process},   {Argument1}
+MINIROCKET,    C:/Users/PaulLeopard/dev/MiniRocket/MRv1.4/MRv1.04_exeDist/mortar120-Cameo_MiniRocket.dat
+
+# Launch MRDTAnalysis001.py with sim results MROutputDat and analysis output file name MRAnalysisDat
+# {Process},   {Argument1},  {Argument2},         {Argument3}
+PYTHON,  C:/Users/PaulLeopard/dev/py_base/DETk/detk_ptk/Mrdt/MRDTViz001.py, C:/Users/PaulLeopard/dev/MiniRocket/MRv1.4/MRv1.04_exeDist/mortar120-Cameo_MiniRocket.out,  C:/Users/PaulLeopard/dev/MiniRocket/MRv1.4/MRv1.04_exeDist/mortar120-Cameo_Analysis.xlsx
+
+# Launch MRDTViz001.py with analysis results file MROutputDat
+PYTHON,  C:/Users/PaulLeopard/dev/py_base/DETk/detk_ptk/Mrdt/MRDTViz001.py, C:/Users/PaulLeopard/dev/MiniRocket/MRv1.4/MRv1.04_exeDist/mortar120-Cameo_MiniRocket.out

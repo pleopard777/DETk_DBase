@@ -1,0 +1,53 @@
+#VRML V2.0 utf8
+
+# Produced by Deep Exploration VRML exporter
+# Deep Exploration 2.1.10.1214
+# http://www.righthemisphere.com/
+
+DEF plane Transform {
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.752941 0.752941 0.752941
+          emissiveColor 0.000000 0.000000 0.000000
+          specularColor 0.400000 0.400000 0.400000
+          ambientIntensity 0.000000
+          shininess 1.515719
+        }
+        texture ImageTexture {
+          url "Plane.png"
+        }
+        textureTransform TextureTransform{
+          translation 0 0
+          scale 1 1
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate { point [
+          # points 4
+          -0.5 -0.5 0, 0.5 -0.5 0, 0.5 0.5 0, -0.5 0.5 0]
+        }
+        creaseAngle 0.610865
+        normal Normal { vector [
+          # normals 1
+          0 0 1]
+        }
+        texCoord TextureCoordinate { point [
+          # texture points 4
+          0 0, 1 0, 1 1, 0 1]
+        }
+        coordIndex [
+          0, 1, 2, 3, -1
+        ]
+        texCoordIndex [
+          0, 1, 2, 3, -1
+        ]
+        normalPerVertex TRUE
+        normalIndex [
+          0, 0, 0, 0, -1
+        ]
+      }
+    }
+  ]
+}

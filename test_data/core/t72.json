@@ -1,0 +1,8 @@
+{ "subject_name":"T72 Tank", "feature_count":7, "sample_count":1000, "random_seed":5033}
+{ "name":"F1", "title":"RCS", "units":"dBsm", "source":"Raw Radar", "mean":12.30, "std_dev":3.10}
+{ "name":"F2", "title":"HRR Peak Separation", "units":"dBsm", "source":"Radar HRR", "mean":16.45, "std_dev":1.32}
+{ "name":"F3", "title":"Primary Frequency Power", "units":"Khz", "source":"Acoustic FFT", "mean":18.04, "std_dev":3.23}
+{ "name":"F4", "title":"Secondary Frequency Power", "units":"Khz", "source":"Acoustic FFT", "mean":5.27, "std_dev":1.24}
+{ "name":"F5", "title":"Average Pixel Intensity", "units":"Counts", "source":"EO/IR Track Box", "mean":5032.00, "std_dev":122.40}
+{ "name":"F6", "title":"Min Pixel Intensitiy", "units":"Counts", "source":"EO/IR Track Box", "mean":354.00, "std_dev":17.30}
+{ "name":"F7", "title":"Max Pixel Intensity", "units":"Counts", "source":"EO/IR Track Box", "mean":6762.00, "std_dev":22.00}

@@ -1,0 +1,46 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "vrml2egg 'C:\Documents and Settings\pleopard\Desktop\Models\Plane.wrl' -o 'C:\Documents and Settings\pleopard\Desktop\Models\Plane.wrl.egg'"
+}
+<Texture> tref {
+  Plane.png
+  <Transform> {
+    <Translate> { 0 0 }
+    <Scale> { 1 1 }
+    <Rotate> { 0 }
+    <Translate> { 0 0 }
+    <Translate> { 0 0 }
+  }
+}
+<Group> plane {
+  <Group> {
+    <VertexPool> vpool1 {
+      <Vertex> 0 {
+        -0.5 -0.5 0
+        <UV> { 0 0 }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        0.5 -0.5 0
+        <UV> { 1 0 }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.5 0.5 0
+        <UV> { 1 1 }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        -0.5 0.5 0
+        <UV> { 0 1 }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 0.752941 0.752941 0.752941 1 }
+      <TRef> { tref }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool1 } }
+    }
+  }
+}

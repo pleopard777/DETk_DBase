@@ -1,0 +1,355 @@
+// Mini-Rocket input file (v1.04)
+//
+Output
+fname = Rocket3Stage.out
+pt = 0.1
+pt_console = 1.0
+
+**** rocket ****
+
+az0_d = -70. 
+echo = 1
+el0_d = 90.0
+h0 = 0.0
+lat0_d = 38.708
+lon0_d = 45.
+nstages = 3
+rotating_earth = 1
+tmax = 100. 
+v0 = 0.01
+xrail=1000.0
+
+output variables:
+These variables are available to be output vs. time.
+Specify output using 0 or 1.
+p_range       = 1 Ground range over spherical earth surface (m).
+p_h           = 1 Altitude above spherical earth (m).
+p_vel         = 1 Velocity (m/sec).
+p_mach        = 1 Mach number.
+p_q           = 0 Dynamic pressure (N/m2).
+p_p           = 0 Local atmospheric pressure (N/m2).
+p_vs          = 0 Local velocity of sound (m/sec).
+p_rho         = 0 Local atmospheric density (kg/m3).
+p_gamma_d     = 1 Flight path angle, with respect to horizontal (deg).
+p_alph        = 1 Total angle-of-attack (deg).
+p_mass        = 1 Mass (kg).
+p_xstage      = 0 Identifier for current stage.
+p_txv         = 1 Vacuum thrust (N).
+p_tx          = 1 Delivered thrust (N).
+p_amax_alph   = 0 Max. acceleration at max.-specified angle-of-attack (m/sec2).
+p_range_slant = 1 Slant range (m).
+p_ay          = 1 y-acceleration, in velocity axex coordinate system (m/sec2)
+p_az          = 1 z-acceleration, in velocity axex coordinate system (m/sec2)
+p_ax          = 1 x-acceleration, in velocity axex coordinate system (m/sec2)
+p_xmode       = 1 Current guidance mode.
+p_ay_cmd      = 1 Commanded y-acceleration (m/sec2).
+p_az_cmd      = 1 Commanded y-acceleration (m/sec2).
+p_lat_d       = 0 Current latitude (deg).
+p_lon_d       = 0 Current longitude (deg).
+p_azimuth_d   = 1 Current azimuth of velocity vector (deg).
+p_ca          = 0 Axial force coefficient.
+p_cd          = 0 Equivalent drag coefficient.
+p_cna         = 0 Linearized normal force coefficient (/deg).
+p_cla         = 0 Linearized equivalent lift coefficient (/deg).
+p_pos_ml_ENUx  = 1 x-Missile position relative to Launcher in ENU (m)
+p_pos_ml_ENUy  = 1 y-Missile position relative to Launcher in ENU (m)
+p_pos_ml_ENUz  = 1 z-Missile position relative to Launcher in ENU (m)
+p_vel_ml_ENUx  = 0 x-Missile velocity relative to Launcher in ENU (m/s)
+p_vel_ml_ENUy  = 0 y-Missile velocity relative to Launcher in ENU (m/s)
+p_vel_ml_ENUz  = 0 z-Missile velocity relative to Launcher in ENU (m/s)
+p_acc_ml_ENUx  = 0 x-Missile acceleration relative to Launcher in ENU (m/s^2)
+p_acc_ml_ENUy  = 0 y-Missile acceleration relative to Launcher in ENU (m/s^2)
+p_acc_ml_ENUz  = 0 z-Missile acceleration relative to Launcher in ENU (m/s^2)
+
+**** stage 1 ****
+alphmax = 9.0
+amax = 100.0
+anoz = 0.0
+dt = 0.01
+isp = 261.865
+m0 = 2499.895
+sref = 0.6206
+tstage = 40.0
+
+txv_table
+4
+t txv
+0.0   119484.02
+40.0  119484.02
+40.01 0.0
+100.0  0.0
+ 
+ca_off
+10 2
+amach
+.2 .9 1.0 1.5 2. 3. 5. 7. 9. 10.
+alpha
+0. 10.
+ca
+.223 .223
+.415 .409
+.466 .460
+.369 .383
+.304 .307
+.233 .261
+.188 .214
+.177 .201
+.177 .200
+.178 .200
+ 
+ca_on
+10 2
+amach
+.2 .9 1.0 1.5 2. 3. 5. 7. 9. 10.
+alpha
+0. 10.
+ca
+.201 .201
+.374 .368
+.419 .414
+.332 .345
+.274 .276
+.210 .235
+.169 .193
+.159 .181
+.159 .180
+.160 .180
+ 
+cna_table
+10
+amach cna
+.2   .0344
+.9   .0381
+1.0  .0444
+1.5  .0459
+2.   .0490
+3.   .0565
+5.   .0563
+7.   .0562
+9.   .0560
+10.  .0559
+ 
+guide_mode_table
+6 
+t mode
+0.   0
+20.  2
+25.  2
+30.  3 
+40.  3
+100. 3
+
+ay_table
+3
+t ay
+0.  0.0
+10. 0.0
+40. 0.0
+
+az_table
+3
+t az
+0.   -100.0
+10.  -100.0
+100. -100.0
+
+gammad_table
+3
+t gamma_d
+0.    0.0
+10.  -1.0
+100. -1.0
+
+gamma_table
+3
+t gamma
+0.    0.0
+10.  75.0
+100. 75.0
+
+**** stage 2 ****
+alphmax = 10.0
+amax = 100.0
+anoz = 0.0
+dt = 0.01
+isp = 253.156
+m0 = 454.678
+sref = 0.4868
+tstage = 35.0
+
+txv_table
+4
+t txv
+0.0   26819.6
+35.0  26819.6
+35.01     0.0
+100.0     0.0
+ 
+ca_off
+6 2
+amach
+3. 5. 7. 9. 10. 20.
+alpha
+0. 10.
+ca
+.232 .254
+.206 .229
+.202 .224
+.205 .226
+.207 .228
+.235 .253
+ 
+ca_on
+6 2
+amach
+3. 5. 7. 9. 10. 20.
+alpha
+0. 10.
+ca
+.209 .229
+.185 .206
+.182 .202
+.184 .203
+.186 .205
+.212 .229
+ 
+cna_table
+6
+amach cna
+3. .0458
+5. .0444
+7. .0429
+9. .0415
+10. .0408
+20. .0338
+
+guide_mode_table
+6 
+t mode
+0.   0
+10.  0
+20.  1
+30.  1
+35.  1
+100. 1
+
+ay_table
+3
+t ay
+0.   0.0
+10.  9.0
+40.  9.0
+
+az_table
+3
+t az
+0.    -11.0
+10.   -11.0
+100.  -11.0
+
+gammad_table
+3
+t gammad
+0.    0.0
+10.   0.1
+100.  0.1
+
+gamma_table
+3
+t gamma
+0.     52.0
+10.    52.0
+100.   52.0
+
+**** stage 3 ****
+alphmax = 10.0
+amax = 100.0
+anoz = 0.0
+dt = 0.01
+isp = 300.0
+m0 = 25.0
+sref = 0.3972
+tstage = 99999.0
+
+txv_table
+2
+t txv
+0.   0.0
+100. 0.0
+
+ca_off
+6 2
+amach
+3. 5. 7. 9. 10. 20.
+alpha
+0. 10.
+ca
+.311 .331
+.264 .284
+.251 .271
+.250 .270
+.251 .271
+.281 .299
+
+ca_on
+6 2
+amach
+3. 5. 7. 9. 10. 20.
+alpha
+0. 10.
+ca
+.280 .297
+.237 .256
+.226 .244
+.224 .239
+.224 .244
+.253 .263
+
+cna_table
+6
+amach cna
+3.  .0411
+5.  .0387
+7.  .0363
+9.  .0340
+10. .0328
+20. .0208
+
+guide_mode_table
+6 
+t mode
+0.   0
+5.   0
+10.  0
+15.  0
+20.  0
+100. 0
+
+ay_table
+3
+t ay
+0.    0.0
+10.   0.0 
+40.   0.0
+
+az_table
+3
+t az
+0.    0.0
+10.   0.0
+100.  0.0
+
+gammad_table
+3
+t gammad
+0.    0.0
+10.   0.0
+100.  0.0
+
+gamma_table
+3
+t gamma
+0.    0.0
+10.   0.0
+100.  0.0
+
